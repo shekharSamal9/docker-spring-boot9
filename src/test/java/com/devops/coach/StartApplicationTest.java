@@ -22,6 +22,6 @@ public class StartApplicationTest {
             .andExpect(status().isOk())
             .andExpect(view().name("index"))
             .andExpect(model().attribute("title", "Welcome folks..We are learning Kubernete Deployment using Helm, Jenkins Pipeline Today's date is june 10..!!!! "))
-            .andExpect(model().attribute("msg", "Hello All..We are deploying springboot application into EKS cluster using Helm + Jenkins Pipeline!!!! shekhar"));
+            .andExpect(model().attribute("msg", "Hello All..We are deploying springboot application into EKS cluster using Helm + Jenkins Pipeline!!!!"));
     }
 }
